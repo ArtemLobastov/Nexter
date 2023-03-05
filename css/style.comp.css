@@ -128,7 +128,7 @@ body {
 .header {
   background-color: #54483a;
   grid-column: full-start/col-end 6;
-  background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(img/hero.jpeg);
+  background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(../img/hero.jpeg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -241,7 +241,7 @@ body {
   grid-template-rows: repeat(6, 1fr);
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
-  background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(/img/back.jpg);
+  background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(../img/back.jpg);
   background-size: cover; }
   @media only screen and (max-width: 50em) {
     .story__pictures {
